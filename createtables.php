@@ -1,5 +1,6 @@
 <?php
-    //Code is provided by AWS and available here; http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodePHP.html
+  
+//Code is provided by AWS and available here;http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodePHP.html
     
     // Date now needs to be set, which I guess is a good thing!
     date_default_timezone_set('Europe/London');
