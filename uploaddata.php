@@ -1,7 +1,7 @@
 <?php
 
     // Date now needs to be set, which I guess is a good thing!
-    date_default_timezone_set('Europe/London');
+    date_default_timezone_set('UTC');
 
     // Find out what the issues are:
     ini_set('display_errors',1);
