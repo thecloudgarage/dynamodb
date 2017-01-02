@@ -1,0 +1,16 @@
+Installation
+
+Installing via Composer
+
+Install Composer
+
+    curl -sS https://getcomposer.org/installer | php
+
+Run the Composer command to install the latest stable version of the SDK:
+
+    php composer.phar require aws/aws-sdk-php
+
+Require Composer's autoloader:
+
+    <?php
+    require 'vendor/autoload.php';
