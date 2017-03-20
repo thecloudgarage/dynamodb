@@ -1,5 +1,7 @@
 Link for Latest Code 
 http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodePHP.html
+Create a Role for EC2 instance to acess DynamoDB Service( Full Access)
+Launch the Instance with this ROLE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DynmaoDB code-Amazon Linux Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
