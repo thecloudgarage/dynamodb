@@ -1,0 +1,33 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DynmaoDB code-Amazon Linux Image
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#!bin/bash
+sudo su
+yum update –y
+yum install httpd24 php56 git -y
+service httpd start
+chkconfig httpd on
+cd /var/www/html
+echo "<?php phpinfo();?>" >test.php
+git clone https://github.com/vcloudmateguru/dynamodb
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DynmaoDB code-Amazon Linux Image
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#!bin/bash
+sudo apg-get update –y
+sudo apg-get install apache2 php git -y
+service apache2 start
+cd /var/www/html
+php -v
+curl -sS https://getcomposer.org/installer | php
+
+git clone https://github.com/vcloudmateguru/dynamodb
+
+
+
+
+Link for Latest Code 
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodePHP.html
